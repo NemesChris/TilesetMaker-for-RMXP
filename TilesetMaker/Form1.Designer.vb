@@ -63,27 +63,27 @@ Partial Class Form1
         '
         Me.Button1.Location = New System.Drawing.Point(275, 13)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(122, 23)
         Me.Button1.TabIndex = 3
-        Me.Button1.Text = "<< Betöltés"
+        Me.Button1.Text = "<< Load Tile to left"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(275, 68)
+        Me.Button2.Location = New System.Drawing.Point(275, 60)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.Size = New System.Drawing.Size(122, 23)
         Me.Button2.TabIndex = 4
-        Me.Button2.Text = "Betöltés >>"
+        Me.Button2.Text = "Load Tile to right >>"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(275, 238)
+        Me.Button3.Location = New System.Drawing.Point(275, 230)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
+        Me.Button3.Size = New System.Drawing.Size(122, 23)
         Me.Button3.TabIndex = 5
-        Me.Button3.Text = "Összerakás!"
+        Me.Button3.Text = "Merge these Tiles!"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'OpenFileDialog1
@@ -95,7 +95,7 @@ Partial Class Form1
         Me.Panel2.AutoScroll = True
         Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel2.Controls.Add(Me.PictureBox2)
-        Me.Panel2.Location = New System.Drawing.Point(505, 12)
+        Me.Panel2.Location = New System.Drawing.Point(403, 9)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(256, 248)
         Me.Panel2.TabIndex = 2
@@ -114,7 +114,7 @@ Partial Class Form1
         '
         Me.ProgressBar1.Location = New System.Drawing.Point(15, 290)
         Me.ProgressBar1.Name = "ProgressBar1"
-        Me.ProgressBar1.Size = New System.Drawing.Size(599, 25)
+        Me.ProgressBar1.Size = New System.Drawing.Size(644, 25)
         Me.ProgressBar1.TabIndex = 6
         '
         'Label1
@@ -122,16 +122,16 @@ Partial Class Form1
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(13, 268)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(468, 13)
+        Me.Label1.Size = New System.Drawing.Size(583, 13)
         Me.Label1.TabIndex = 7
-        Me.Label1.Text = "Összerakáskor a bal Pictureboxba teszi az új képet! Jobb klikkel lehet kimenteni " &
-    "megadott névvel!"
+        Me.Label1.Text = "After merge, the merged tileset will be in the left picturebox! You can save out " &
+    "the new image file with the right mouse click!"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(797, 327)
+        Me.ClientSize = New System.Drawing.Size(670, 327)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.ProgressBar1)
         Me.Controls.Add(Me.Panel2)
@@ -144,7 +144,7 @@ Partial Class Form1
         Me.MaximizeBox = False
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Tileset Maker"
+        Me.Text = "Tileset Maker for RMXP"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
